@@ -1,0 +1,6 @@
+@SeboScrob.WebAPI_HostAddress = http://localhost:5056
+
+GET {{SeboScrob.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
