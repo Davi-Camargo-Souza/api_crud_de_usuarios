@@ -1,7 +1,9 @@
-using SeboScrob.Persistence;
-using SeboScrob.Application.Services;
 using SeboScrob.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
+using SeboScrob.WebAPI.Extensions;
+using SeboScrob.Persistence.Extensions;
+using AutoMapper;
+using System.Reflection;
 
 namespace SeboScrob.WebAPI
 {
@@ -14,6 +16,7 @@ namespace SeboScrob.WebAPI
             // Add services to the container.;
             builder.Services.ConfigureApplicationApp();
             builder.Services.ConfigurePersistenceApp(builder.Configuration);
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

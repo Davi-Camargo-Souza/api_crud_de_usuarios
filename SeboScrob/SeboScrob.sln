@@ -9,17 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{59744750-632F-4984-940E-6FBC3FF17727}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7C437371-65B7-4F4C-9D38-58E165D27BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeboScrob.Domain", "SeboScrob.Domain\SeboScrob.Domain.csproj", "{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeboScrob.Domain", "SeboScrob.Domain\SeboScrob.Domain.csproj", "{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeboScrob.Persistence", "SeboScrob.Persistence\SeboScrob.Persistence.csproj", "{CCE19766-09D1-4565-898B-A4F6BFC63B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeboScrob.Application", "SeboScrob.Application\SeboScrob.Application.csproj", "{8EFB2E3E-9F6F-4EAF-89A3-483B421673E4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeboScrob.Persistence", "SeboScrob.Persistence\SeboScrob.Persistence.csproj", "{CCE19766-09D1-4565-898B-A4F6BFC63B63}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeboScrob.WebAPI", "SeboScrob.WebAPI\SeboScrob.WebAPI.csproj", "{8614F242-EE67-4764-8ED8-0838341242D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeboScrob.Test", "SeboScrob.Test\SeboScrob.Test.csproj", "{C718866D-1946-40E8-95C8-CE76AAEF76E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeboScrob.WebAPI", "SeboScrob.WebAPI\SeboScrob.WebAPI.csproj", "{8614F242-EE67-4764-8ED8-0838341242D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A32D146-E504-4A97-A4E9-E770F7ED6B5C} = {5A32D146-E504-4A97-A4E9-E770F7ED6B5C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +28,6 @@ Global
 		{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EFB2E3E-9F6F-4EAF-89A3-483B421673E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EFB2E3E-9F6F-4EAF-89A3-483B421673E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EFB2E3E-9F6F-4EAF-89A3-483B421673E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EFB2E3E-9F6F-4EAF-89A3-483B421673E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CCE19766-09D1-4565-898B-A4F6BFC63B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCE19766-09D1-4565-898B-A4F6BFC63B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE19766-09D1-4565-898B-A4F6BFC63B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,20 +36,14 @@ Global
 		{8614F242-EE67-4764-8ED8-0838341242D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8614F242-EE67-4764-8ED8-0838341242D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8614F242-EE67-4764-8ED8-0838341242D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C718866D-1946-40E8-95C8-CE76AAEF76E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C718866D-1946-40E8-95C8-CE76AAEF76E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C718866D-1946-40E8-95C8-CE76AAEF76E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C718866D-1946-40E8-95C8-CE76AAEF76E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5A32D146-E504-4A97-A4E9-E770F7ED6B5C} = {ADF84935-6CB1-4C5E-B946-11524B83E17A}
-		{8EFB2E3E-9F6F-4EAF-89A3-483B421673E4} = {ADF84935-6CB1-4C5E-B946-11524B83E17A}
 		{CCE19766-09D1-4565-898B-A4F6BFC63B63} = {8E8D8235-9B44-4CC5-B92C-145BC599C30E}
 		{8614F242-EE67-4764-8ED8-0838341242D1} = {59744750-632F-4984-940E-6FBC3FF17727}
-		{C718866D-1946-40E8-95C8-CE76AAEF76E2} = {7C437371-65B7-4F4C-9D38-58E165D27BE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAD0CE52-70EA-4CBC-B5B7-E8B58DCF61BE}

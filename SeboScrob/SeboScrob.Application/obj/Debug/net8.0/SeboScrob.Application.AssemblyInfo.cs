@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeboScrob.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+125f0c4b8118c55f0bf5ccd136422e0410025606")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeboScrob.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeboScrob.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

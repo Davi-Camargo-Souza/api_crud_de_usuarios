@@ -21,7 +21,6 @@ namespace SeboScrob.Persistence.Repositories
             _context.Add(entity);
         }
 
-        // o método delete não vai deletar o registro 100%.
         public void Delete (T entity)
         {
             entity.DateDisabled = DateTime.UtcNow;
@@ -34,10 +33,10 @@ namespace SeboScrob.Persistence.Repositories
             using (var connection = _dapperContext.CreateConnection())
             {
                 connection.Open();
-                id = $"\"{id}\"";
-                string sql = $"SELECT * FROM {tabela} WHERE id = {id}";
-                var result = await connection.QueryFirstOrDefaultAsync<T>(sql, cancellationToken);
+                string sql = $"SELECT * FROM {tabela} WHERE id = '{id}'";
+                var result = connection.QueryFirstOrDefaultAsync<T>(sql, cancellationToken).Result;
                 connection.Close();
+
                 return result;
             }
         }

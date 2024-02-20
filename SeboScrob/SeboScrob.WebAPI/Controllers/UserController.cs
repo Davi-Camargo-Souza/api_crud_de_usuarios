@@ -1,12 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SeboScrob.Application.Shared.Exceptions;
-using SeboScrob.Application.UseCases.User.CreateUser;
-using SeboScrob.Application.UseCases.User.DeleteUser;
-using SeboScrob.Application.UseCases.User.GetUser;
-using SeboScrob.Application.UseCases.User.Login;
-using SeboScrob.Application.UseCases.User.UpdateUser;
+using SeboScrob.WebAPI.DTOs.Requests.User;
+using SeboScrob.WebAPI.DTOs.Responses.User;
+using SeboScrob.WebAPI.Shared.Exceptions;
+
 
 namespace SeboScrob.WebAPI.Controllers
 {
@@ -21,7 +19,7 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<GetUserResponse>> Get(string id, CancellationToken cancellationToken)
+        public async Task<ActionResult<GetUserResponse>> GetUser(string id, CancellationToken cancellationToken)
         {
             GetUserRequest request = new GetUserRequest(id);
             try
@@ -41,8 +39,8 @@ namespace SeboScrob.WebAPI.Controllers
         {
             try
             {
-                var response = await _mediator.Send(request, cancellationToken);
-                return Ok(response);
+                var createdUser = await _mediator.Send(request, cancellationToken);
+                return CreatedAtAction(nameof(GetUser), new { id = createdUser.Id }, createdUser);
             }
             catch(EmailAlreadyExistsException ex)
             {
@@ -54,26 +52,8 @@ namespace SeboScrob.WebAPI.Controllers
             }
         }
 
-        [HttpPost("login")]
-        public async Task<ActionResult<LoginUserResponse>> Login (LoginUserRequest request, CancellationToken cancellationToken)
-        {
-            try
-            {
-                var response = await _mediator.Send(request, cancellationToken);
-                return Ok(response);
-            }
-            catch (UserNotFoundException ex)
-            {
-                return NotFound(ex.Message);
-            }
-            catch (WrongPasswordException ex)
-            {
-                return Unauthorized(ex.Message);
-            }
-        }
-
         [HttpPut("{id}")]
-        public async Task<ActionResult<UpdateUserResponse>> Update (string id, UpdateUserRequest request, CancellationToken cancellationToken)
+        public async Task<ActionResult<UpdateUserResponse>> UpdateUser (string id, UpdateUserRequest request, CancellationToken cancellationToken)
         {
             request.Id = id;
 
@@ -97,7 +77,7 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete (string id, CancellationToken cancellationToken)
+        public async Task<ActionResult> DeleteUser (string id, CancellationToken cancellationToken)
         {
             DeleteUserRequest request = new DeleteUserRequest(id);
             try

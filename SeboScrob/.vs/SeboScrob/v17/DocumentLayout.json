@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\handlers\\getuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\handlers\\getuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.persistence\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|solutionrelative:seboscrob.persistence\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|solutionrelative:seboscrob.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\dtos\\requests\\user\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\dtos\\requests\\user\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\dtos\\requests\\user\\getuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\dtos\\requests\\user\\getuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|solutionrelative:seboscrob.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\handlers\\updateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\handlers\\updateuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\dtos\\requests\\user\\deleteuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\dtos\\requests\\user\\deleteuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\handlers\\deleteuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\handlers\\deleteuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|solutionrelative:seboscrob.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\dtos\\responses\\login\\loginuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\dtos\\responses\\login\\loginuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\handlers\\loginuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\handlers\\loginuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\handlers\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\handlers\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\shared\\behavior\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\shared\\behavior\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|solutionrelative:seboscrob.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A32D146-E504-4A97-A4E9-E770F7ED6B5C}|SeboScrob.Domain\\SeboScrob.Domain.csproj|solutionrelative:seboscrob.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\extensions\\configureapplicationappextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\extensions\\configureapplicationappextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\\u00E1rea de trabalho\\.net projetos\\seboscrob\\seboscrob.webapi\\seboscrob.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\seboscrob.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:34:54.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:40:51.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\DeleteUserHandler.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Handlers\\DeleteUserHandler.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\DeleteUserHandler.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Handlers\\DeleteUserHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIAwwBcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:43:05.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\GetUserHandler.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Handlers\\GetUserHandler.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\GetUserHandler.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Handlers\\GetUserHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAApwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:45:33.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Requests\\User\\GetUserRequest.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\DTOs\\Requests\\User\\GetUserRequest.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Requests\\User\\GetUserRequest.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\DTOs\\Requests\\User\\GetUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:46:16.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Requests\\User\\DeleteUserRequest.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\DTOs\\Requests\\User\\DeleteUserRequest.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Requests\\User\\DeleteUserRequest.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\DTOs\\Requests\\User\\DeleteUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:44:12.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "SeboScrob.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAASwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:38:51.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Program.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T03:47:44.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Domain\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "SeboScrob.Domain\\Entities\\UserEntity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:38:43.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Requests\\User\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\DTOs\\Requests\\User\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Requests\\User\\UpdateUserRequest.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\DTOs\\Requests\\User\\UpdateUserRequest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:40:30.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Domain\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "SeboScrob.Domain\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAhwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:41:58.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\UpdateUserHandler.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Handlers\\UpdateUserHandler.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\UpdateUserHandler.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Handlers\\UpdateUserHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAIAwwBgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:40:26.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Responses\\Login\\LoginUserResponse.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\DTOs\\Responses\\Login\\LoginUserResponse.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\DTOs\\Responses\\Login\\LoginUserResponse.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\DTOs\\Responses\\Login\\LoginUserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:39:54.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\LoginUserHandler.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Handlers\\LoginUserHandler.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\LoginUserHandler.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Handlers\\LoginUserHandler.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vx0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:39:27.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAD4vyAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:39:13.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Shared\\Behavior\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Shared\\Behavior\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Shared\\Behavior\\ValidationBehavior.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Shared\\Behavior\\ValidationBehavior.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:37:39.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Mappers\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Mappers\\UserMapper.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T05:23:04.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "SeboScrob.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:42:50.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SeboScrob.Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T04:34:54.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SeboScrob.WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj",
+              "RelativeToolTip": "SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-16T04:26:29.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConfigureApplicationAppExtension.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Extensions\\ConfigureApplicationAppExtension.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Extensions\\ConfigureApplicationAppExtension.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\\u00C1rea de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\Extensions\\ConfigureApplicationAppExtension.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Extensions\\ConfigureApplicationAppExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T01:34:34.465Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
