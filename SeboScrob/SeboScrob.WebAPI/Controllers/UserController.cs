@@ -20,6 +20,9 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpGet("{id}")]
+#if DEBUG
+        [AllowAnonymous]
+#endif
         [Authorize]
         public async Task<ActionResult<GetUserResponse>> GetUser(string id, CancellationToken cancellationToken)
         {
@@ -56,6 +59,9 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpPut("{id}")]
+#if DEBUG
+        [AllowAnonymous]
+#endif
         [Authorize]
         public async Task<ActionResult<UpdateUserResponse>> UpdateUser (string id, UpdateUserRequest request, CancellationToken cancellationToken)
         {
@@ -81,6 +87,9 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+#if DEBUG
+        [AllowAnonymous]
+#endif
         [Authorize]
         public async Task<ActionResult> DeleteUser (string id, CancellationToken cancellationToken)
         {

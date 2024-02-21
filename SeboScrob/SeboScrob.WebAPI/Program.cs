@@ -21,6 +21,9 @@ namespace SeboScrob.WebAPI
             builder.Services.ConfigurePersistenceApp(builder.Configuration);
             builder.Services.JWTBearerConfiguration();
 
+            builder.Environment.IsDevelopment();
+            //builder.Environment.IsProduction();
+
             builder.Services.AddCors();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -44,10 +47,12 @@ namespace SeboScrob.WebAPI
                 x.AllowAnyOrigin();
                 x.AllowAnyMethod();
             });
-                
-            app.UseAuthentication();
-            app.UseAuthorization();
 
+            if (app.Environment.IsProduction())
+            {
+                app.UseAuthentication();
+                app.UseAuthorization();
+            }
 
             app.MapControllers();
 
