@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using SeboScrob.WebAPI.Shared.Exceptions;
 using SeboScrob.WebAPI.DTOs.Requests.Login;
 using SeboScrob.WebAPI.DTOs.Responses.Login;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SeboScrob.WebAPI.Controllers
 {
@@ -17,7 +18,8 @@ namespace SeboScrob.WebAPI.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost("login")]
+        [HttpPost]
+        [AllowAnonymous]
         public async Task<ActionResult<LoginUserResponse>> Login(LoginUserRequest request, CancellationToken cancellationToken)
         {
             try

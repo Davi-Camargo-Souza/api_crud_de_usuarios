@@ -1,9 +1,10 @@
-﻿namespace SeboScrob.WebAPI.DTOs.Responses.Login
+﻿using SeboScrob.Domain.Entities;
+
+namespace SeboScrob.WebAPI.DTOs.Responses.Login
 {
     public record LoginUserResponse
     {
-        public string Id { get; set; }
-        public bool IsLoggedIn { get; set; } = false;
-
+        public UserEntity User { get; set; }
+        public string Token { get; set; }
     }
 }

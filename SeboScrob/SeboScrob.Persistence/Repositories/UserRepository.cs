@@ -33,9 +33,8 @@ namespace SeboScrob.Persistence.Repositories
             using (var connection = _dapperContext.CreateConnection())
             {
                 connection.Open();
-                var sql = $"SELECT * FROM Users WHERE email = @Email";
-                //var result = await connection.QuerySingleOrDefaultAsync(sql, cancellationToken);
-                var result = await connection.QueryFirstOrDefaultAsync<UserEntity>(sql, new { Email = email });
+                var sql = $"SELECT * FROM Users WHERE email = '{email}'";
+                var result = await connection.QueryFirstOrDefaultAsync<UserEntity>(sql, cancellationToken);
                 connection.Close ();
                 return result;
             }

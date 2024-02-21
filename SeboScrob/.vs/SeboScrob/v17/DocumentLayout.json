@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\documentos\\github\\api_crud_de_usuarios\\seboscrob\\seboscrob.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\documentos\\github\\api_crud_de_usuarios\\seboscrob\\seboscrob.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|c:\\users\\camar\\onedrive\\documentos\\github\\api_crud_de_usuarios\\seboscrob\\seboscrob.persistence\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|solutionrelative:seboscrob.persistence\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\documentos\\github\\api_crud_de_usuarios\\seboscrob\\seboscrob.webapi\\handlers\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\handlers\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\documentos\\github\\api_crud_de_usuarios\\seboscrob\\seboscrob.webapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|c:\\users\\camar\\onedrive\\documentos\\github\\api_crud_de_usuarios\\seboscrob\\seboscrob.persistence\\extensions\\configurepersistenceappextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCE19766-09D1-4565-898B-A4F6BFC63B63}|SeboScrob.Persistence\\SeboScrob.Persistence.csproj|solutionrelative:seboscrob.persistence\\extensions\\configurepersistenceappextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|c:\\users\\camar\\onedrive\\documentos\\github\\api_crud_de_usuarios\\seboscrob\\seboscrob.webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8614F242-EE67-4764-8ED8-0838341242D1}|SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj|solutionrelative:seboscrob.webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigurePersistenceAppExtension.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.Persistence\\Extensions\\ConfigurePersistenceAppExtension.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Persistence\\Extensions\\ConfigurePersistenceAppExtension.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.Persistence\\Extensions\\ConfigurePersistenceAppExtension.cs",
+              "RelativeToolTip": "SeboScrob.Persistence\\Extensions\\ConfigurePersistenceAppExtension.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T05:12:56.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Handlers\\CreateUserHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T05:12:56.924Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\appsettings.json",
+              "RelativeToolTip": "SeboScrob.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-21T05:04:02.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwBEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T04:51:47.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "SeboScrob.Persistence\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T04:51:18.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "SeboScrob.WebAPI\\Services\\TokenService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T04:50:53.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SeboScrob.WebAPI\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "SeboScrob.WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwDUAAAAAAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAuwDMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T04:40:51.216Z",
+              "WhenOpened": "2024-02-21T04:47:47.13Z",
               "EditorCaption": ""
             }
           ]

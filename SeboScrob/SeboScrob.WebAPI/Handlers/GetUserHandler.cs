@@ -21,13 +21,13 @@ namespace SeboScrob.WebAPI.Handlers
         }
         public async Task<GetUserResponse> Handle(GetUserRequest request, CancellationToken cancellationToken)
         {
-            var consulta = _userRepository.Get(request.id, cancellationToken, "Users");
-            if (consulta.Result == null)
+            var consulta = _userRepository.Get(request.id, cancellationToken, "Users").Result;
+            if (consulta == null)
             {
                 throw new UserNotFoundException("Usúario não encontrado.");
             }
 
-            var result = _mapper.Map<GetUserResponse>(consulta.Result);
+            var result = _mapper.Map<GetUserResponse>(consulta);
 
             return result;
         }

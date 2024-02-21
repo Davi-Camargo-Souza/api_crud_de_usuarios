@@ -23,8 +23,8 @@ namespace SeboScrob.WebAPI.Handlers
         }
         public async Task<CreateUserResponse> Handle(CreateUserRequest request, CancellationToken cancellationToken)
         {
-            var consulta = _userRepository.GetByEmail(request.Email, cancellationToken);
-            if (consulta.Result != null)
+            var consulta = _userRepository.GetByEmail(request.Email, cancellationToken).Result;
+            if (consulta != null)
             {
                 throw new EmailAlreadyExistsException("O email já está registrado.");
             }
@@ -32,8 +32,7 @@ namespace SeboScrob.WebAPI.Handlers
             var entity = _mapper.Map<UserEntity>(request);
             entity.Id = Guid.NewGuid().ToString();
 
-            PasswordUtil passwordUtil = new PasswordUtil();
-            entity.Senha = passwordUtil.HashPassword(entity.Senha);
+            entity.Senha = PasswordUtil.HashPassword(entity.Senha);
 
             _userRepository.Create(entity);
             await _unitOfWork.Commit(cancellationToken);

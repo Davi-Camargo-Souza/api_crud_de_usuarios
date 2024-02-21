@@ -4,6 +4,9 @@ using SeboScrob.WebAPI.Extensions;
 using SeboScrob.Persistence.Extensions;
 using AutoMapper;
 using System.Reflection;
+using SeboScrob.WebAPI.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace SeboScrob.WebAPI
 {
@@ -16,7 +19,9 @@ namespace SeboScrob.WebAPI
             // Add services to the container.;
             builder.Services.ConfigureApplicationApp();
             builder.Services.ConfigurePersistenceApp(builder.Configuration);
+            builder.Services.JWTBearerConfiguration();
 
+            builder.Services.AddCors();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -33,6 +38,14 @@ namespace SeboScrob.WebAPI
 
             app.UseHttpsRedirection();
 
+            app.UseCors(x =>
+            {
+                x.AllowAnyHeader();
+                x.AllowAnyOrigin();
+                x.AllowAnyMethod();
+            });
+                
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

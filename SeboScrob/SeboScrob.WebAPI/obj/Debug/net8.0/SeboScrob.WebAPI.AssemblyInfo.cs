@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeboScrob.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb5ee17218bd1d8611c5ccb6a8f599b36c243d09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecf1330610c1f38c209817ced8c3172fee15c2fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeboScrob.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeboScrob.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

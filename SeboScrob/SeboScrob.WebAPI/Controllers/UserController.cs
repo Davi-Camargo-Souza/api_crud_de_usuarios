@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SeboScrob.WebAPI.DTOs.Requests.User;
@@ -19,6 +20,7 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<GetUserResponse>> GetUser(string id, CancellationToken cancellationToken)
         {
             GetUserRequest request = new GetUserRequest(id);
@@ -35,6 +37,7 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<ActionResult<CreateUserResponse>> CreateUser (CreateUserRequest request, CancellationToken cancellationToken)
         {
             try
@@ -53,6 +56,7 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<ActionResult<UpdateUserResponse>> UpdateUser (string id, UpdateUserRequest request, CancellationToken cancellationToken)
         {
             request.Id = id;
@@ -77,6 +81,7 @@ namespace SeboScrob.WebAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult> DeleteUser (string id, CancellationToken cancellationToken)
         {
             DeleteUserRequest request = new DeleteUserRequest(id);

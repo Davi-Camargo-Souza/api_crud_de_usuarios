@@ -19,8 +19,7 @@ namespace SeboScrob.WebAPI.Migrations
 
             modelBuilder.Entity("SeboScrob.Domain.Entities.UserEntity", b =>
                 {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<string>("Id")
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("Ativo")
@@ -41,13 +40,13 @@ namespace SeboScrob.WebAPI.Migrations
                     b.Property<string>("Cidade")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTimeOffset>("DateCreated")
+                    b.Property<DateTime>("DateCreated")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTimeOffset?>("DateDisabled")
+                    b.Property<DateTime?>("DateDisabled")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTimeOffset?>("DateUpdated")
+                    b.Property<DateTime?>("DateUpdated")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
@@ -60,7 +59,7 @@ namespace SeboScrob.WebAPI.Migrations
                     b.Property<string>("Estado")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateOnly?>("Nascimento")
+                    b.Property<string>("Nascimento")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")

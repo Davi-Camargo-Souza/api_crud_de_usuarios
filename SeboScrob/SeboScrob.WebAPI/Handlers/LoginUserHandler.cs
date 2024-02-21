@@ -3,6 +3,7 @@ using MediatR;
 using SeboScrob.Domain.Interfaces;
 using SeboScrob.WebAPI.DTOs.Requests.Login;
 using SeboScrob.WebAPI.DTOs.Responses.Login;
+using SeboScrob.WebAPI.Services;
 using SeboScrob.WebAPI.Shared.Exceptions;
 using SeboScrob.WebAPI.Shared.Uteis;
 
@@ -22,15 +23,12 @@ namespace SeboScrob.WebAPI.Handlers
             {
                 throw new UserNotFoundException("Usúario não encontrado.");
             }
-            PasswordUtil passwordUtil = new PasswordUtil();
-            var hashedPassword = passwordUtil.HashPassword(request.Senha);
 
-            if (passwordUtil.HashPassword(hashedPassword + usuario.DateCreated) == passwordUtil.HashPassword(usuario.Senha + usuario.DateCreated))
+            var hashedPassword = PasswordUtil.HashPassword(request.Senha);
+
+            if (PasswordUtil.HashPassword(hashedPassword + usuario.DateCreated) == PasswordUtil.HashPassword(usuario.Senha + usuario.DateCreated))
             {
-                LoginUserResponse response = new LoginUserResponse();
-                response.Id = usuario.Id;
-                response.IsLoggedIn = true;
-                return new LoginUserResponse { Id = usuario.Id, IsLoggedIn = true };
+                return new LoginUserResponse { User = usuario, Token = TokenService.Generate(usuario)};
             } else
             {
                 throw new WrongPasswordException("Senha incorreta.");

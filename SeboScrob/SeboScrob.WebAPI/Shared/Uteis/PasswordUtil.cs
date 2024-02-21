@@ -3,9 +3,9 @@ using System.Text;
 
 namespace SeboScrob.WebAPI.Shared.Uteis
 {
-    public class PasswordUtil
+    public static class PasswordUtil
     {
-        public string HashPassword (string password)
+        public static string HashPassword (string password)
         {
             SHA256 hash = SHA256.Create();
 

@@ -24,27 +24,26 @@ namespace SeboScrob.WebAPI.Handlers
 
         public async Task<UpdateUserResponse> Handle(UpdateUserRequest request, CancellationToken cancellationToken)
         {
-            var entidadeDesatualizada = _userRepository.Get(request.Id, cancellationToken, "Users");
-            if (entidadeDesatualizada.Result == null)
+            var entidadeDesatualizada = _userRepository.Get(request.Id, cancellationToken, "Users").Result;
+            if (entidadeDesatualizada == null)
             {
                 throw new UserNotFoundException("Não há nenhum usúario vínculado ao id.");
             }
 
-            var consulta = _userRepository.GetByEmail(request.Email, cancellationToken);
-            if (consulta.Result != null)
+            var consulta = _userRepository.GetByEmail(request.Email, cancellationToken).Result;
+            if (consulta != null)
             {
-                if (consulta.Result.Id != request.Id)
+                if (consulta.Id != request.Id)
                 {
                     throw new EmailAlreadyExistsException("O email inserido pertence a outro usúario já registrado.");
                 }
             }
 
             var entity = _mapper.Map<UserEntity>(request);
-            entity.Id = entidadeDesatualizada.Result.Id;
-            entity.DateCreated = entidadeDesatualizada.Result.DateCreated;
+            entity.Id = entidadeDesatualizada.Id;
+            entity.DateCreated = entidadeDesatualizada.DateCreated;
 
-            PasswordUtil passwordUtil = new PasswordUtil();
-            var hashedPassword = passwordUtil.HashPassword(entity.Senha);
+            var hashedPassword = PasswordUtil.HashPassword(entity.Senha);
             entity.Senha = hashedPassword;
 
             _userRepository.Update(entity);
