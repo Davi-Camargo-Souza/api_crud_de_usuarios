@@ -1,5 +1,8 @@
 # api_crud_de_usuarios
 
-## API RESTful ASP .NET CORE feita nos padrões da Clean Architecture e DDD, além de usar CQRS
+## API RESTful ASP .NET CORE feita nos padrões da Clean Architecture, DDD E CQRS
 
-### Ela realiza um CRUD de usúarios. Pretendo usar ela futuramente em um site que irei desenvolver (por isso o nome "Sebo")
+## Para testar os endpoints, precisa da autorização por meio de bearer token.
+### Crie um usúario, realize o login e use o token retornado.
+
+### Pretendo também adicionar refresh tokens.
