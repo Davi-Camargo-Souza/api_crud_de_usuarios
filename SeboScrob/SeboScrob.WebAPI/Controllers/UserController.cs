@@ -12,7 +12,7 @@ namespace SeboScrob.WebAPI.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IMediator _mediator;
+        private IMediator _mediator;
         public UserController(IMediator mediator)
         {
             _mediator = mediator;

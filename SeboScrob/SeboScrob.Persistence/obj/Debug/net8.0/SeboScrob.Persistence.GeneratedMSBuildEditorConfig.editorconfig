@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SeboScrob.Persistence
-build_property.ProjectDir = C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Persistence\
+build_property.ProjectDir = C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

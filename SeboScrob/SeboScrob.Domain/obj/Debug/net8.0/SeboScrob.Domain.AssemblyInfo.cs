@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeboScrob.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb5ee17218bd1d8611c5ccb6a8f599b36c243d09")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeboScrob.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeboScrob.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

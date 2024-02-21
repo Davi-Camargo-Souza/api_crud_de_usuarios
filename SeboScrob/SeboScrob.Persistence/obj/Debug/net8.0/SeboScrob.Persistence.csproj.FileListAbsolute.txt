@@ -15,3 +15,21 @@ C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Pers
 C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Persistence\bin\Debug\net8.0\SeboScrob.Persistence.runtimeconfig.json
 C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.genruntimeconfig.cache
 C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScro.6098DCD2.Up2Date
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\bin\Debug\net8.0\SeboScrob.Persistence.deps.json
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\bin\Debug\net8.0\SeboScrob.Persistence.runtimeconfig.json
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\bin\Debug\net8.0\SeboScrob.Persistence.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\bin\Debug\net8.0\SeboScrob.Persistence.pdb
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\bin\Debug\net8.0\SeboScrob.Domain.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\bin\Debug\net8.0\SeboScrob.Domain.pdb
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.csproj.AssemblyReference.cache
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.AssemblyInfoInputs.cache
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.AssemblyInfo.cs
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.sourcelink.json
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScro.6098DCD2.Up2Date
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\refint\SeboScrob.Persistence.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.pdb
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\SeboScrob.Persistence.genruntimeconfig.cache
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Persistence\obj\Debug\net8.0\ref\SeboScrob.Persistence.dll

@@ -9,3 +9,15 @@ C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Doma
 C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\refint\SeboScrob.Domain.dll
 C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.pdb
 C:\Users\camar\OneDrive\Área de Trabalho\.NET Projetos\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\ref\SeboScrob.Domain.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\bin\Debug\net8.0\SeboScrob.Domain.deps.json
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\bin\Debug\net8.0\SeboScrob.Domain.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\bin\Debug\net8.0\SeboScrob.Domain.pdb
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.AssemblyInfoInputs.cache
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.AssemblyInfo.cs
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.csproj.CoreCompileInputs.cache
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.sourcelink.json
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\refint\SeboScrob.Domain.dll
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\SeboScrob.Domain.pdb
+C:\Users\camar\OneDrive\Documentos\GitHub\api_crud_de_usuarios\SeboScrob\SeboScrob.Domain\obj\Debug\net8.0\ref\SeboScrob.Domain.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xcwOlQcM5L1virLfNq+0yIvQxoD/WKJ5sEZp0F5caRH16PFp17MaWzQvK5YVj29x9FRR2K0lzvC/eutWudxkFA==",
+  "dgSpecHash": "lv+XzsnWkhKYoiS4RECJwPkAEdiw6Rngi1D8xM93LZTPWUiejqnLdwmbgjD+Tu40uCblcio3bsnMmQayaQryQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camar\\OneDrive\\Área de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Domain\\SeboScrob.Domain.csproj",
+  "projectFilePath": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.Domain\\SeboScrob.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

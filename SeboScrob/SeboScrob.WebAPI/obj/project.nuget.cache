@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u4ZzFk9hhM6AHWgvMfK+j/Lg+eSQDFNkBRITVdWqx6ra5lF1ea6vTR3oZ/BiEgqKr5SmltLSHJt7Z6O4Nvr7GA==",
+  "dgSpecHash": "SZTI1cfb/Gvq2Y0iJ4C271SVGEEAeRvrDoNr4rwTGWinw1KjkWWffd973j+NCBLC7cIRWryLjSeXSrjPqCRhNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camar\\OneDrive\\Área de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.WebAPI\\SeboScrob.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\camar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

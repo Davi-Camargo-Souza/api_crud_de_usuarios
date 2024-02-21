@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sn6Zc2zH+dgSqXNdn5+Shp5KIsVTqJ490noX2ypnanfyE7fS4I+I8Lpo4lx7RUV/048M/AuPMVVSUNArviHU6Q==",
+  "dgSpecHash": "V4y/QZTQGv60fQe9i8oMl2Ck7kUQI9KhOPKk/bzENf6kHwMth3DQfEv9tmc48MXJnGyrOueZ5wDOA+DIwv/jfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camar\\OneDrive\\Área de Trabalho\\.NET Projetos\\SeboScrob\\SeboScrob.Persistence\\SeboScrob.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\camar\\OneDrive\\Documentos\\GitHub\\api_crud_de_usuarios\\SeboScrob\\SeboScrob.Persistence\\SeboScrob.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camar\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\camar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
